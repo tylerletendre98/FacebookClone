@@ -4,6 +4,11 @@ import HomeIcon from '@material-ui/icons/Home'
 import FlagIcon from '@material-ui/icons/Flag'
 import SubscriptionOutlinedIcon from '@material-ui/icons/StorefrontOutlined'
 import  SupervisedUserCircleOutlined  from '@material-ui/icons/SupervisedUserCircleOutlined'
+import AddIcon from '@material-ui/icons/Add'
+import ForumIcon from '@material-ui/icons/Forum'
+import NotificationActiveIcon from '@material-ui/icons/NotificationsActive'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import { Avatar, IconButton } from '@material-ui/core'
 const Header = () => {
     return (
         <div className="header">   
@@ -28,6 +33,16 @@ const Header = () => {
                 <div className="header-option">
                     <SupervisedUserCircleOutlined fontsize='large'/>
                 </div>
+            </div>
+            <div className="header-right">
+                <div className="header-info">
+                    <Avatar/>
+                    <h4>tyler letendre</h4>
+                </div>
+                <AddIcon/>
+                <ForumIcon/>
+                <NotificationActiveIcon/>
+                <ExpandMoreIcon/>
             </div>
         </div>
     )
