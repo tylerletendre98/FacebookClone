@@ -1,3 +1,4 @@
+import './header.css'
 import React from 'react'
 import SearchIcon from '@material-ui/icons/Search'
 import HomeIcon from '@material-ui/icons/Home'
@@ -39,10 +40,19 @@ const Header = () => {
                     <Avatar/>
                     <h4>tyler letendre</h4>
                 </div>
-                <AddIcon/>
-                <ForumIcon/>
-                <NotificationActiveIcon/>
-                <ExpandMoreIcon/>
+                <IconButton>
+                    <AddIcon/>
+                </IconButton>
+                <IconButton>
+                    <ForumIcon/>
+                </IconButton>
+                <IconButton>
+                    <NotificationActiveIcon/>
+                </IconButton>
+                <IconButton>
+                    <ExpandMoreIcon/>
+                </IconButton>
+                
             </div>
         </div>
     )
