@@ -1,6 +1,9 @@
 import React from 'react'
 import SearchIcon from '@material-ui/icons/Search'
-
+import HomeIcon from '@material-ui/icons/Home'
+import FlagIcon from '@material-ui/icons/Flag'
+import SubscriptionOutlinedIcon from '@material-ui/icons/StorefrontOutlined'
+import  SupervisedUserCircleOutlined  from '@material-ui/icons/SupervisedUserCircleOutlined'
 const Header = () => {
     return (
         <div className="header">   
@@ -9,7 +12,22 @@ const Header = () => {
             </div>
             <div className="header-input">
                 <SearchIcon/>
-                <input type="text" name="" placeholder='Search' />
+                <input type="text" name="" placeholder='Search Facebook' />
+            </div>
+            <div className="header-center">
+                <div className="header-option
+                header-option--active">
+                    <HomeIcon fontsize='large'/>
+                </div>
+                <div className="header-option">
+                    <FlagIcon fontSize='large'/>       
+                </div>
+                <div className='header-option'>
+                    <SubscriptionOutlinedIcon fontsize='large'/>
+                </div>
+                <div className="header-option">
+                    <SupervisedUserCircleOutlined fontsize='large'/>
+                </div>
             </div>
         </div>
     )
