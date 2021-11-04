@@ -8,11 +8,10 @@ import ChatIcon from '@material-ui/icons/Chat'
 import StoreFrontIcon from '@material-ui/icons/Storefront'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import  ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
-import {useStateValue} from '../StateProvider'
 
 const Sidebar=()=>{
     return(
-        <div>
+        <div className='sidebar'>
             <h1>this is sidebar</h1>
         </div>
     )
