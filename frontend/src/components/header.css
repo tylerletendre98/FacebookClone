@@ -69,3 +69,15 @@
 .header-option>.MuiSvgIcon-root{
     color: gray;
 }
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+.header-info h4{
+    margin-left: 10px;
+}
+.header-right{
+    display: flex;
+}
+
