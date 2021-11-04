@@ -9,10 +9,18 @@ import StoreFrontIcon from '@material-ui/icons/Storefront'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import  ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
 
+
 const Sidebar=()=>{
     return(
         <div className='sidebar'>
-            <h1>this is sidebar</h1>
+            <SidebarRow src= '' title="tyler"/>
+            <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 Information Center"/>
+            <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
+            <SidebarRow Icon={PeopleIcon} title="Friends"/>
+            <SidebarRow Icon={ChatIcon} title="Messenger"/>
+            <SidebarRow Icon={StoreFrontIcon} title="MarketPlace"/>
+            <SidebarRow Icon={VideoLibraryIcon} title="Videos"/>
+            <SidebarRow Icon={ExpandMoreOutlined} title="More"/>
         </div>
     )
 }
