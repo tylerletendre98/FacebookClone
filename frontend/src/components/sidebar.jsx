@@ -13,7 +13,7 @@ import  ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
 const Sidebar=()=>{
     return(
         <div className='sidebar'>
-            <SidebarRow src= '' title="tyler"/>
+            <SidebarRow src= '' title="Tyler Letendre"/>
             <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 Information Center"/>
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
