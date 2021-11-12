@@ -6,9 +6,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Sidebar/>
-      <Feed/>
+        <Header/>
+      <div className='app-body'> 
+        <Sidebar/>
+        <Feed/>
+    
+      </div>
 
     </div>
   );
