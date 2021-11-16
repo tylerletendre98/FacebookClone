@@ -43,7 +43,7 @@ function MessageSender() {
           </button>
         </form>
       </div>
-      <div className="messsageSender-bottom">
+      <div className="messageSender-bottom">
         <div className="messageSender-option">
           <VideocamIcon style={{ color: "red" }} />
           <h3>Live Video</h3>

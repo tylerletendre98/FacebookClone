@@ -36,3 +36,16 @@
 .messageSender-input {
   flex: 1;
 }
+
+.messageSender-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messageSender-option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
