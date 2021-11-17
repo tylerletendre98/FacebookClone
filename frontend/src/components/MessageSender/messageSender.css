@@ -49,3 +49,14 @@
   color: gray;
   margin: 5px;
 }
+
+
+.messageSender-option h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.messageSender-option:hover{
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
