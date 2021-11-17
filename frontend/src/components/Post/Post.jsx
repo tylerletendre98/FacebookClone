@@ -10,7 +10,9 @@ function Post({profilePic, message, userName, timeStamp, imgName}) {
             <div className='post-topInfo'>
                 <h3>{userName}</h3>
                 <p>{new Date(parseInt(timeStamp)).toUTCString()}</p>
-                <div className="post-options">
+            </div>
+            <div className="post-options">
+                <div className='post-option'>
                     <ThumbUp/>
                     <p>Like</p>
                 </div>
